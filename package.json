@@ -1,0 +1,26 @@
+{
+  "name": "smart-alarm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cron": "^1.1.0",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "fb": "^1.0.2",
+    "googleapis": "^2.1.7",
+    "launchpad-mk2": "^1.0.4",
+    "moment": "^2.11.1",
+    "passport": "^0.3.2",
+    "passport-google-oauth2": "^0.1.6",
+    "request": "^2.67.0",
+    "socket.io": "^1.4.4",
+    "twilio": "^2.8.0"
+  }
+}

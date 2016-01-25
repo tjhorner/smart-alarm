@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Smart Alarm</title>
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="/js/jquery.min.js" charset="utf-8"></script>
+    <script src="/js/admin.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <input type="text" id="desc"></input>
+    <select id="type">
+      <option value="add">adds</option>
+      <option value="subtract">subtracts</option>
+    </select>
+    <input type="number" id="time"></input>
+    <select id="interval">
+      <option value="seconds">seconds</option>
+      <option value="minutes">minutes</option>
+      <option value="hours">hours</option>
+      <option value="days">days</option>
+      <option value="weeks">weeks</option>
+    </select>
+    <button id="mod">add mod</button>
+    <br/><br/>
+    <input type="text" id="hour"></input> :
+    <input type="text" id="minute"></input>
+    <select id="ampm">
+      <option value="AM">AM</option>
+      <option value="PM">PM</option>
+    </select>
+    <input type="text" id="reason" placeholder="reason"></input>
+    <button id="override">add override</button>
+  </body>
+</html>

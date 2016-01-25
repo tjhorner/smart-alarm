@@ -1,0 +1,19 @@
+body{
+  font-family: "San Francisco UI", sans-serif;
+  text-align: center;
+}
+
+table{
+  /*border: 1px solid black;*/
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+table tr{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+td{
+  padding: 5px;
+}
